@@ -38,3 +38,14 @@ The main classifier Python file for this project can be found [here](./scripts/c
 ## Installation
 The project was implemented in Python 3.8. To install the required packages, use the following command:
 
+
+## Technologies Used:
+- Python
+- Numpy
+- Pandas
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+
+## Contact
+If you have any questions, comments, or would like to contribute, please feel free to contact me at camilodurangos@gmail.com.
