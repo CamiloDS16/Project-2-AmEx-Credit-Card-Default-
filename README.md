@@ -33,12 +33,11 @@ Figures used in reporting can be found [here](../reports/figures/).
 ## Metrics
 You can find the detailed metrics for this project [here](../metrics/).
 
-## Models: Model Deployment Script, Imputer and Scaler
-Scripts for models used in this project can be found [here](../model/).
+## Models: Model Deployment Script
+Scripts for models used in this project can be found [here](../models/).
 
 ## Installation
 The project was implemented in Python 3.8. To install the required packages, use the following command:
-
 
 ## Technologies Used:
 - Python
