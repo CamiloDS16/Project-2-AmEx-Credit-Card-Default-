@@ -21,13 +21,13 @@ The American Express Credit Line Default Classifier is a project to predict the 
 Credit card default is a substantial challenge in the financing industry. With an ever-growing number of individuals and businesses utilizing credit cards due to their convenience and robust rewards system, credit card issuers face a higher risk of customers not paying back their balance. This project seeks to address this problem by using data science to provide insights that can drive decision-making.
 
 ## Data
-Detailed data from this project can be found [here](./data/).
+Detailed data from this project can be found [here](.../data/).
 
 ## Notebooks
-Detailed Jupyter notebooks regarding the analysis can be found [here](./notebooks/).
+Detailed Jupyter notebooks regarding the analysis can be found [here](.../notebooks/).
 
 ## Reports
-Detailed PDF project reports and Slide Deck can be found [here](./reports/documentation/).
+Detailed PDF project reports and Slide Deck can be found [here](.../reports/documentation/).
 Figures used in reporting can be found [here](./reports/figures/).
 
 ## Metrics
