@@ -64,7 +64,7 @@ def feature_engineering(df):
     
     return df
 
-def transform_data(df, imputer, scaler, original_features):
+def transform_data(df, imputer, scaler):
     """
     Function to perform necessary data transformations like encoding and scaling.
     """
@@ -130,10 +130,6 @@ def main():
     imputer_path = '../model-xgb/simple_imputer.pkl'
     scaler_path = '../model-xgb/min-max-scaler.pkl'
     xgb_model_path = '../model-xgb/best_xgb_model.pkl'
-    original_features = ['age', 'gender', 'owns_car', 'owns_house', 'net_yearly_income',
-           'no_of_days_employed', 'occupation_type', 'total_family_members',
-           'migrant_worker', 'yearly_debt_payments', 'credit_limit_used_pctg',
-           'credit_score', 'total_defaults']
 
     logger.info("Starting the data processing pipeline")
 
