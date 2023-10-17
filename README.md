@@ -9,7 +9,7 @@
 4. [Notebooks](#notebooks)
 5. [Reports](#reports)
 6. [Metrics](#metrics)
-7. [Models: Model Deployment Script](#models:-model-deployment-script)
+7. [Models](#models)
 8. [Installation](#installation)
 9. [Technologies Used](#technologies-used)
 10. [Contact](#contact)
@@ -33,7 +33,7 @@ Figures used in reporting can be found [here](../reports/figures/).
 ## Metrics
 You can find the detailed metrics for this project [here](../metrics/).
 
-## Models: Model Deployment Script
+## Models
 Scripts for models used in this project can be found [here](../models/).
 
 ## Installation
