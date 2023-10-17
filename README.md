@@ -7,33 +7,34 @@
 2. [Motivation](#motivation)
 3. [Data](#data)
 4. [Notebooks](#notebooks)
-5. [Metrics](#metrics)
-6. [Python Scripts: Models](#python-scripts-models)
-7. [Python File: Classifier](#python-file-classifier)
+5. [Reports](#reports)
+6. [Metrics](#metrics)
+7. [Models: Model Deployment Script](#models:-model-deployment-script)
 8. [Installation](#installation)
 9. [Technologies Used](#technologies-used)
 10. [Contact](#contact)
 
 ## Overview
-The American Express Credit Line Default Classifier is a project to predict the probability of a customer defaulting on their credit line. Defaulting in this context means not paying back their balance for 120 days. This model will provide credit card companies like American Express a tool to manage their risk better and enhance their decision-making processes.
+The American Express Credit Line Default Classifier is a project to predict the probability of a customer defaulting on their credit line. Defaulting in this context means not paying back their balance for 120 days. This model will provide credit card companies like American Express with a tool to manage their risk better and enhance their decision-making processes.
 
 ## Motivation
 Credit card default is a substantial challenge in the financing industry. With an ever-growing number of individuals and businesses utilizing credit cards due to their convenience and robust rewards system, credit card issuers face a higher risk of customers not paying back their balance. This project seeks to address this problem by using data science to provide insights that can drive decision-making.
 
 ## Data
-Detailed data from this project can be found [here](Project-2-AmEx-Credit-Card-Default-/data/).
+Detailed data from this project can be found [here](../data/).
 
 ## Notebooks
-Detailed Jupyter notebooks regarding the analysis can be found [here](Project-2-AmEx-Credit-Card-Default-/notebooks/).
+Detailed Jupyter notebooks regarding the analysis can be found [here](../notebooks/).
+
+## Reports
+Detailed PDF project reports and Slide Deck can be found [here](../reports/documentation/).
+Figures used in reporting can be found [here](../reports/figures/).
 
 ## Metrics
-You can find the detailed metrics for this project [here](Project-2-AmEx-Credit-Card-Default-/metrics/).
+You can find the detailed metrics for this project [here](../metrics/).
 
-## Python Scripts: Models Evaluated
-Scripts for models used in this project can be found [here](Project-2-AmEx-Credit-Card-Default-/scripts/models.py/).
-
-## Classifier
-The main classifier code for this project can be found [here](Project-2-AmEx-Credit-Card-Default-/scripts/classifier.py).
+## Models: Model Deployment Script, Imputer and Scaler
+Scripts for models used in this project can be found [here](../model/).
 
 ## Installation
 The project was implemented in Python 3.8. To install the required packages, use the following command:
