@@ -29,11 +29,11 @@ Credit defaults pose substantial financial risks to American Express. The goal i
 
 ## Data Wrangling
 We performed data cleaning and preparation by loading data from a CSV file, standardizing nomenclatures, handling missing values, and profiling the dataset to ensure optimal design for future analysis steps.
-- [Data Wrangling Notebook](data/notebooks/data_wrangling.ipynb)
+- [Data Wrangling Notebook](data/notebooks/data_wrangling_2capstone.ipynb)
 
 ## Exploratory Data Analysis
 We visualized the dataset to understand the inherent dynamics within the data, identify multicollinearity, and observe class imbalance issues which are crucial for the next steps of preprocessing and modeling.
-- [EDA Notebook](data/notebooks/exploratory_data_analysis.ipynb)
+- [EDA Notebook](data/notebooks/eda_amex_project.ipynb)
 
 ## Data Preprocessing and Training
 In this stage, multicollinearity was addressed by dropping redundant features, the dataset was scaled using MinMaxScaler, and the class imbalance was handled using SMOTE to ensure a balanced dataset for effective modeling.
@@ -46,7 +46,7 @@ Employed MinMaxScaler to harmonize the range of features, ensuring each feature 
 
 ### Class Imbalance: SMOTE
 We utilized SMOTE to handle class imbalance, enhancing the dataset with more instances of the minority class for a balanced training set.
-- [Preprocessing and Training Notebook](data/notebooks/preprocessing_and_training.ipynb)
+- [Preprocessing and Training Notebook](notebooks/preprocessing_amex.ipynb)
 
 ## Modeling
 The modeling phase involved evaluating different metrics, hyperparameter tuning, and selecting the XGBoost Classifier due to its high performance, efficiency, and suitability for handling imbalanced datasets.
@@ -59,7 +59,7 @@ Used RandomizedSearchCV for efficient hyperparameter tuning, optimizing the mode
 
 ### Model Selection
 In this section, we evaluated the models based on their performance in an unseen test set and selected the best model to apply. 
-- [Modeling Notebook](data/notebooks/modeling.ipynb)
+- [Modeling Notebook](notebooks/modeling_amex.ipynb)
 
 ## Conclusions and Recommendations
 The analysis underscores the critical challenge of credit defaults and highlights the efficacy of the selected model in addressing this issue. Recommendations include continuous model evaluation, further feature engineering, devising risk mitigation strategies, and ensuring model interpretability, fairness, and regulatory compliance.
