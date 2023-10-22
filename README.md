@@ -22,60 +22,56 @@
 10. [Contact](#contact)
 
 ## Introduction
-[Overview of the project, mentioning the business context, the problem at hand, and the goal of developing a predictive model to forecast credit defaults for American Express. The detailed introduction can be found in the project report.]
+This project seeks to address the significant challenge of credit default faced by American Express by leveraging data science. By developing a predictive model, we aim to forecast the likelihood of a customer defaulting on their credit card payments, thereby aiding American Express in managing credit default risks more effectively.
 
 ### Business Problem
-[Summary of the business problem, emphasizing the impact of credit defaults on American Express and the intention behind developing a classification model to address this challenge.]
+Credit defaults pose substantial financial risks to American Express. The goal is to harness data science to create a classification model using 2021 customer data to predict credit card payment defaults, enabling proactive mitigation strategies and fostering a financially secure customer-issuer relationship.
 
 ## Data Wrangling
-[Summary of data wrangling process, with highlights on techniques used to clean and prepare the data for further analysis. Link to specific scripts or notebooks for detailed steps.]
-
+We performed data cleaning and preparation by loading data from a CSV file, standardizing nomenclatures, handling missing values, and profiling the dataset to ensure optimal design for future analysis steps.
 - [Data Wrangling Notebook](data/notebooks/data_wrangling.ipynb)
 
 ## Exploratory Data Analysis
-[Summary of the exploratory data analysis, discussing the insights derived from visualizing the dataset, and understanding the variables. Link to specific scripts or notebooks for detailed steps.]
-
+We visualized the dataset to understand the inherent dynamics within the data, identify multicollinearity, and observe class imbalance issues which are crucial for the next steps of preprocessing and modeling.
 - [EDA Notebook](data/notebooks/exploratory_data_analysis.ipynb)
 
 ## Data Preprocessing and Training
-[Summary of data preprocessing and training steps, including handling multicollinearity, scaling the dataset, and addressing class imbalance. Link to specific scripts or notebooks for detailed steps.]
+In this stage, multicollinearity was addressed by dropping redundant features, the dataset was scaled using MinMaxScaler, and the class imbalance was handled using SMOTE to ensure a balanced dataset for effective modeling.
 
 ### Multicollinearity: Feature Selection
-[Summary of how multicollinearity was addressed.]
+Addressed multicollinearity by dropping features exhibiting high correlation to reduce redundancy and improve model performance.
 
 ### Scaling Dataset: MinMaxScaler
-[Summary of how dataset scaling was performed.]
+Employed MinMaxScaler to harmonize the range of features, ensuring each feature has an equal opportunity to influence the model.
 
 ### Class Imbalance: SMOTE
-[Summary of how class imbalance was handled.]
-
+We utilized SMOTE to handle class imbalance, enhancing the dataset with more instances of the minority class for a balanced training set.
 - [Preprocessing and Training Notebook](data/notebooks/preprocessing_and_training.ipynb)
 
 ## Modeling
-[Summary of modeling process, including the metrics used for evaluation, hyperparameter tuning, and the model selection process. Link to specific scripts or notebooks for detailed steps.]
+The modeling phase involved evaluating different metrics, hyperparameter tuning, and selecting the XGBoost Classifier due to its high performance, efficiency, and suitability for handling imbalanced datasets.
 
 ### Metrics
-[Discussion on the choice of metrics.]
+Employed AUC-ROC and AUC-PRC as primary metrics to evaluate model performance, with AUC-ROC used as a baseline for model selection due to its robustness across various thresholds.
 
 ### Hyperparameter Tuning
-[Discussion on the approach to hyperparameter tuning.]
+Used RandomizedSearchCV for efficient hyperparameter tuning, optimizing the model's learning characteristics without exhaustive computational demand.
 
 ### Model Selection
-[Discussion on the model selection process and justification of the chosen model.]
-
+In this section, we evaluated the models based on their performance in an unseen test set and selected the best model to apply. 
 - [Modeling Notebook](data/notebooks/modeling.ipynb)
 
 ## Conclusions and Recommendations
-[Summary of conclusions drawn from the analysis and recommendations for stakeholders, including potential risk mitigation strategies and suggestions for continuous model evaluation and improvement.]
+The analysis underscores the critical challenge of credit defaults and highlights the efficacy of the selected model in addressing this issue. Recommendations include continuous model evaluation, further feature engineering, devising risk mitigation strategies, and ensuring model interpretability, fairness, and regulatory compliance.
 
 ## References
-[List of references as provided in the project report.]
+The references section lists all the external resources and data sources referred to in the project
 
 ## Installation
 The project was implemented in Python 3.8. To install the required packages, use the following command:
 ```bash
 pip install -r requirements.txt
-
+```
 ## Technologies Used:
 - Python
 - Numpy
